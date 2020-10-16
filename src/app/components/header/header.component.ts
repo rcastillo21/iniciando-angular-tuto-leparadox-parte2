@@ -18,4 +18,20 @@ export class HeaderComponent implements OnInit{
 
   nombre = "Ruben";
 
+  cambiarNombre(){
+    this.nombre = "Jhoan";
+  }
+
+  cont = 0;
+
+  contarSuma(){
+    //this.cont++;
+    this.cont += 1;
+  }
+
+  arr = [1, 2, 3, 4, 5];
+
+  add(){
+    this.arr.push(Math.random());
+  }
 }

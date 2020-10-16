@@ -1,1 +1,11 @@
 <div>{{ nombre }}</div>
+<button (click)="cambiarNombre()">Cambiar</button>
+<br><br>
+<div>{{ cont }}</div>
+<button (click)="contarSuma()">Sumar</button>
+<br><br>
+<ul>
+    <li *ngFor="let numero of arr">{{ numero }}</li>
+</ul>
+<br><br>
+<button (click)="add()">Agregar a Lista</button>
